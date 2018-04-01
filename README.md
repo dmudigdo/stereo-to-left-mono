@@ -23,7 +23,8 @@ pip install pydub
 
 Pydub in turn requires [ffmpeg](https://www.ffmpeg.org) (unless your audio is .wav, in which case Pydub can work using native python audio functions). Note that the Pydub documentation on obtaining ffmpeg didn't work for me, but what did work was:
 
-```apt-get install libav-tools libav-tools
+```
+apt-get install libav-tools libav-tools
 ```
 
 ## Motivation
